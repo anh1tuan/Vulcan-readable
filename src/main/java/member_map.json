@@ -1,0 +1,93 @@
+{
+  "AbstractCheck": {
+    "Vulcan_H": "vl",
+    "Vulcan_Y": "bufferDecayConfig",
+    "Vulcan_b": "playerData",
+    "Vulcan_c": "maxBufferConfig",
+    "Vulcan_e": "bufferMultipleConfig",
+    "Vulcan_q": "buffer",
+    "Vulcan_z": "checkName"
+  },
+  "CheckData": {
+    "Vulcan_F": "minimumVlToNotify",
+    "Vulcan_P": "randomRotation",
+    "Vulcan_T": "bufferMultiple",
+    "Vulcan_V": "hotbarShuffle",
+    "Vulcan_X": "punishable",
+    "Vulcan_Z": "randomRotationInterval",
+    "Vulcan_b": "punishmentCommands",
+    "Vulcan_c": "minimumVlToRandomlyRotate",
+    "Vulcan_d": "alertInterval",
+    "Vulcan_g": "maxBuffer",
+    "Vulcan_i": "enabled",
+    "Vulcan_m": "maxViolations",
+    "Vulcan_q": "maxPing",
+    "Vulcan_r": "minimumTps",
+    "Vulcan_t": "broadcastPunishment",
+    "Vulcan_x": "minimumVlToShuffleHotbar",
+    "Vulcan_y": "bufferDecay"
+  },
+  "NestableRuntimeException": {
+    "Vulcan_b": "cause"
+  },
+  "NotImplementedException": {
+    "Vulcan_Q": "cause"
+  },
+  "PlayerData": {
+    "Vulcan_A": "username",
+    "Vulcan_B": "joinTime",
+    "Vulcan_C": "actionTracker",
+    "Vulcan_E": "reachEntityHelper",
+    "Vulcan_F": "recentSamples",
+    "Vulcan_G": "versionUtil",
+    "Vulcan_H": "user",
+    "Vulcan_I": "movementViolations",
+    "Vulcan_K": "olderSamples",
+    "Vulcan_L": "scaffoldViolations",
+    "Vulcan_M": "blockBreakTracker",
+    "Vulcan_N": "exemptPlayers",
+    "Vulcan_O": "autoClickerViolations",
+    "Vulcan_P": "tickTracker",
+    "Vulcan_Q": "lastDigPacket",
+    "Vulcan_R": "lastFlyingPacket",
+    "Vulcan_S": "transactionId",
+    "Vulcan_U": "combatViolations",
+    "Vulcan_V": "clickTracker",
+    "Vulcan_X": "lastInteractPacket",
+    "Vulcan_Z": "lastClientBrandAlert",
+    "Vulcan__": "checkState",
+    "Vulcan_a": "joinTicks",
+    "Vulcan_d": "timerViolations",
+    "Vulcan_e": "webhookClient",
+    "Vulcan_f": "ignoredPlayers",
+    "Vulcan_g": "gliding",
+    "Vulcan_h": "lastFlagTime",
+    "Vulcan_i": "inventoryOpen",
+    "Vulcan_j": "packetHandler",
+    "Vulcan_l": "recentFlags",
+    "Vulcan_m": "player",
+    "Vulcan_n": "entityId",
+    "Vulcan_o": "clientBrand",
+    "Vulcan_q": "lastEntityActionPacket",
+    "Vulcan_r": "joined",
+    "Vulcan_s": "uuid",
+    "Vulcan_t": "totalViolations",
+    "Vulcan_u": "lastHeldItemChangePacket",
+    "Vulcan_v": "lastBlockPlacePacket",
+    "Vulcan_w": "lastVelocityTime",
+    "Vulcan_x": "playerViolations",
+    "Vulcan_y": "clientVersion",
+    "Vulcan_z": "blocking"
+  },
+  "StrBuilderReader": {
+    "Vulcan_G": "cause"
+  },
+  "ValidateUtils": {
+    "Vulcan_A": "cause"
+  },
+  "VulcanBootstrap": {
+    "Vulcan_M": "logger",
+    "Vulcan_X": "tickRunnable",
+    "Vulcan_e": "enabled"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "PlayerData": [
+    {
+      "field": "player",
+      "new": "setPlayer",
+      "old": "Vulcan_w"
+    },
+    {
+      "field": "clientBrand",
+      "new": "setClientBrand",
+      "old": "Vulcan_p"
+    },
+    {
+      "field": "entityId",
+      "new": "setEntityId",
+      "old": "Vulcan_j"
+    },
+    {
+      "field": "uuid",
+      "new": "setUuid",
+      "old": "Vulcan_q"
+    },
+    {
+      "field": "clientVersion",
+      "new": "setClientVersion",
+      "old": "Vulcan_Z"
+    },
+    {
+      "field": "username",
+      "new": "setUsername",
+      "old": "Vulcan_T"
+    },
+    {
+      "field": "joined",
+      "new": "setJoined",
+      "old": "Vulcan_h"
+    },
+    {
+      "field": "inventoryOpen",
+      "new": "setInventoryOpen",
+      "old": "Vulcan_K"
+    },
+    {
+      "field": "blocking",
+      "new": "setBlocking",
+      "old": "Vulcan_G"
+    },
+    {
+      "field": "gliding",
+      "new": "setGliding",
+      "old": "Vulcan_w"
+    },
+    {
+      "field": "totalViolations",
+      "new": "setTotalViolations",
+      "old": "Vulcan_I"
+    },
+    {
+      "field": "combatViolations",
+      "new": "setCombatViolations",
+      "old": "Vulcan_m"
+    },
+    {
+      "field": "movementViolations",
+      "new": "setMovementViolations",
+      "old": "Vulcan_Q"
+    },
+    {
+      "field": "playerViolations",
+      "new": "setPlayerViolations",
+      "old": "Vulcan_y"
+    },
+    {
+      "field": "autoClickerViolations",
+      "new": "setAutoClickerViolations",
+      "old": "Vulcan_i"
+    },
+    {
+      "field": "scaffoldViolations",
+      "new": "setScaffoldViolations",
+      "old": "Vulcan_g"
+    },
+    {
+      "field": "timerViolations",
+      "new": "setTimerViolations",
+      "old": "Vulcan__"
+    },
+    {
+      "field": "lastClientBrandAlert",
+      "new": "setLastClientBrandAlert",
+      "old": "Vulcan_L"
+    },
+    {
+      "field": "lastVelocityTime",
+      "new": "setLastVelocityTime",
+      "old": "Vulcan_D"
+    },
+    {
+      "field": "lastFlyingPacket",
+      "new": "setLastFlyingPacket",
+      "old": "Vulcan_s"
+    },
+    {
+      "field": "lastInteractPacket",
+      "new": "setLastInteractPacket",
+      "old": "Vulcan_P"
+    },
+    {
+      "field": "lastDigPacket",
+      "new": "setLastDigPacket",
+      "old": "Vulcan_B"
+    },
+    {
+      "field": "lastEntityActionPacket",
+      "new": "setLastEntityActionPacket",
+      "old": "Vulcan_Y"
+    },
+    {
+      "field": "lastHeldItemChangePacket",
+      "new": "setLastHeldItemChangePacket",
+      "old": "Vulcan_e"
+    },
+    {
+      "field": "lastBlockPlacePacket",
+      "new": "setLastBlockPlacePacket",
+      "old": "Vulcan_b"
+    },
+    {
+      "field": "transactionId",
+      "new": "setTransactionId",
+      "old": "Vulcan_l"
+    },
+    {
+      "field": "recentFlags",
+      "new": "setRecentFlags",
+      "old": "Vulcan_t"
+    },
+    {
+      "field": "exemptPlayers",
+      "new": "setExemptPlayers",
+      "old": "Vulcan_N"
+    },
+    {
+      "field": "ignoredPlayers",
+      "new": "setIgnoredPlayers",
+      "old": "Vulcan_X"
+    },
+    {
+      "field": "lastFlagTime",
+      "new": "setLastFlagTime",
+      "old": "Vulcan_x"
+    }
+  ]
+}

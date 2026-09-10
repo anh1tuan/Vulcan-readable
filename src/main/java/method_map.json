@@ -1,0 +1,48 @@
+{
+  "AbstractCheck": {
+    "Vulcan_k": "getLastDigPacket",
+    "Vulcan_x": "getBufferDecayConfig"
+  },
+  "PlayerData": {
+    "Vulcan_C": "getVersionUtil",
+    "Vulcan_G": "setBlocking",
+    "Vulcan_I": "setTotalViolations",
+    "Vulcan_K": "setInventoryOpen",
+    "Vulcan_L": "setLastClientBrandAlert",
+    "Vulcan_N": "setExemptPlayers",
+    "Vulcan_P": "setLastInteractPacket",
+    "Vulcan_R": "getRecentSamples",
+    "Vulcan_W": "getCheckState",
+    "Vulcan_Z": "setClientVersion",
+    "Vulcan__": "setTimerViolations",
+    "Vulcan_j": "setEntityId",
+    "Vulcan_k": "getLastBlockPlacePacket",
+    "Vulcan_m": "setCombatViolations",
+    "Vulcan_n": "isClientPre1_9",
+    "Vulcan_o": "getUUID",
+    "Vulcan_p": "setClientBrand",
+    "Vulcan_s": "setLastFlyingPacket",
+    "Vulcan_t": "setRecentFlags",
+    "Vulcan_u": "isBlocking",
+    "Vulcan_x": "setLastFlagTime",
+    "Vulcan_z": "getActionTracker"
+  },
+  "VulcanBootstrap": {
+    "Vulcan_E": "getPunishmentManager",
+    "Vulcan_F": "getTransactionPingHandler",
+    "Vulcan_K": "isWebhookClient",
+    "Vulcan_M": "getPlayer",
+    "Vulcan_N": "getKeepAliveRunnable",
+    "Vulcan_O": "isVersionUtil",
+    "Vulcan_P": "isExemptPlayers",
+    "Vulcan_Q": "getPluginManager",
+    "Vulcan_S": "getAlertPlaceholders",
+    "Vulcan_U": "isLastDigPacket",
+    "Vulcan_W": "getAutoClickerViolations",
+    "Vulcan_Y": "getJoinTicks",
+    "Vulcan_c": "isRecentSamples",
+    "Vulcan_n": "isMovementViolations",
+    "Vulcan_q": "isLastBlockPlacePacket",
+    "Vulcan_v": "getUser"
+  }
+}

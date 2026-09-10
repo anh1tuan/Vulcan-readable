@@ -1,0 +1,57 @@
+package me.frep.vulcan.spigot.check.impl.combat.hitbox;
+
+import com.github.retrooper.packetevents.event.PacketEvent;
+import com.github.retrooper.packetevents.wrapper.play.client.WrapperPlayClientInteractEntity;
+import me.frep.vulcan.spigot.ExemptType;
+import me.frep.vulcan.spigot.PlayerData;
+import me.frep.vulcan.spigot.check.AbstractCheck;
+import me.frep.vulcan.spigot.check.api.CheckInfo;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.Player;
+import org.bukkit.event.Event;
+import org.bukkit.util.Vector;
+
+@CheckInfo(name = "Hitbox", type = 'B', complexType = "Simple", description = "Attacked while not looking at target.")
+public class HitboxB extends AbstractCheck {
+    public HitboxB(PlayerData playerData) {
+        super(playerData);
+    }
+
+    @Override
+    public void handle(PacketEvent event, long timestamp) {
+        if (!this.isInteractEntityPacket(event)) {
+            return;
+        }
+        Entity target = this.playerData.getReachEntityHelper().getTargetEntity();
+        WrapperPlayClientInteractEntity packet = this.playerData.getLastInteractPacket();
+        if (!(target instanceof Player)
+                || packet == null
+                || packet.getAction() != WrapperPlayClientInteractEntity.InteractAction.ATTACK) {
+            return;
+        }
+        if (this.isExempt(ExemptType.TELEPORT, ExemptType.JOINED, ExemptType.VEHICLE)) {
+            return;
+        }
+        Vector origin = new Vector(
+                this.playerData.getBlockBreakTracker().getLocationX(),
+                0.0,
+                this.playerData.getBlockBreakTracker().getLocationZ());
+        Vector destination = new Vector(target.getLocation().getX(), 0.0, target.getLocation().getZ());
+        Vector toTarget = destination.clone().subtract(origin);
+        if (toTarget.lengthSquared() < 1.0E-6) {
+            return;
+        }
+        float yaw = this.playerData.getActionTracker().getYaw();
+        Vector look = new Vector(-Math.sin(Math.toRadians(yaw)), 0.0, Math.cos(Math.toRadians(yaw)));
+        double angle = toTarget.normalize().angle(look);
+        if (angle < 1.5) {
+            return;
+        }
+        this.fail("angle=" + angle);
+        this.applyBufferDecay();
+    }
+
+    @Override
+    public void handleEvent(Event event, long timestamp) {
+    }
+}

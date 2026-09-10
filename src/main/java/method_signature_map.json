@@ -1,0 +1,363 @@
+{
+  "AbstractCheck": [
+    {
+      "new": "getPlayerData",
+      "old": "Vulcan_R",
+      "return": "PlayerData"
+    },
+    {
+      "new": "getCheckName",
+      "old": "Vulcan_D",
+      "return": "String"
+    },
+    {
+      "new": "getMaxBufferConfig",
+      "old": "Vulcan_t",
+      "return": "double"
+    },
+    {
+      "new": "getBufferDecayConfig",
+      "old": "Vulcan_x",
+      "return": "double"
+    },
+    {
+      "new": "getBufferMultipleConfig",
+      "old": "Vulcan_R",
+      "return": "double"
+    },
+    {
+      "new": "getLastDigPacket",
+      "old": "Vulcan_k",
+      "return": "AbstractCheck[]"
+    }
+  ],
+  "PlayerData": [
+    {
+      "new": "getUser",
+      "old": "Vulcan_V",
+      "return": "User"
+    },
+    {
+      "new": "getPlayer",
+      "old": "Vulcan_e",
+      "return": "Player"
+    },
+    {
+      "new": "getEntityId",
+      "old": "Vulcan_B",
+      "return": "int"
+    },
+    {
+      "new": "getUUID",
+      "old": "Vulcan_o",
+      "return": "UUID"
+    },
+    {
+      "new": "getClientVersion",
+      "old": "Vulcan_y",
+      "return": "ClientVersion"
+    },
+    {
+      "new": "getUsername",
+      "old": "Vulcan_c",
+      "return": "String"
+    },
+    {
+      "new": "isJoined",
+      "old": "Vulcan_y",
+      "return": "boolean"
+    },
+    {
+      "new": "isInventoryOpen",
+      "old": "Vulcan_V",
+      "return": "boolean"
+    },
+    {
+      "new": "isBlocking",
+      "old": "Vulcan_u",
+      "return": "boolean"
+    },
+    {
+      "new": "isGliding",
+      "old": "Vulcan_O",
+      "return": "boolean"
+    },
+    {
+      "new": "getLastVelocityTime",
+      "old": "Vulcan_r",
+      "return": "long"
+    },
+    {
+      "new": "getLastFlyingPacket",
+      "old": "Vulcan_q",
+      "return": "WrapperPlayClientPlayerFlying"
+    },
+    {
+      "new": "getLastInteractPacket",
+      "old": "Vulcan_M",
+      "return": "WrapperPlayClientInteractEntity"
+    },
+    {
+      "new": "getLastDigPacket",
+      "old": "Vulcan_l",
+      "return": "WrapperPlayClientPlayerDigging"
+    },
+    {
+      "new": "getLastEntityActionPacket",
+      "old": "Vulcan_c",
+      "return": "WrapperPlayClientEntityAction"
+    },
+    {
+      "new": "getLastHeldItemChangePacket",
+      "old": "Vulcan_Q",
+      "return": "WrapperPlayClientHeldItemChange"
+    },
+    {
+      "new": "getLastBlockPlacePacket",
+      "old": "Vulcan_k",
+      "return": "WrapperPlayClientPlayerBlockPlacement"
+    },
+    {
+      "new": "getTransactionId",
+      "old": "Vulcan_c",
+      "return": "int"
+    },
+    {
+      "new": "getRecentFlags",
+      "old": "Vulcan_B",
+      "return": "List"
+    },
+    {
+      "new": "getExemptPlayers",
+      "old": "Vulcan_h",
+      "return": "HashSet"
+    },
+    {
+      "new": "getIgnoredPlayers",
+      "old": "Vulcan_T",
+      "return": "HashSet"
+    },
+    {
+      "new": "getVersionUtil",
+      "old": "Vulcan_C",
+      "return": "VersionUtil"
+    },
+    {
+      "new": "getReachEntityHelper",
+      "old": "Vulcan_T",
+      "return": "ReachEntityHelper"
+    },
+    {
+      "new": "getWebhookClient",
+      "old": "Vulcan_r",
+      "return": "WebhookClient"
+    },
+    {
+      "new": "getClickTracker",
+      "old": "Vulcan_O",
+      "return": "ClickTracker"
+    },
+    {
+      "new": "getBlockBreakTracker",
+      "old": "Vulcan_M",
+      "return": "BlockBreakTracker"
+    },
+    {
+      "new": "getActionTracker",
+      "old": "Vulcan_z",
+      "return": "ActionTracker"
+    },
+    {
+      "new": "getTickTracker",
+      "old": "Vulcan_X",
+      "return": "TickTracker"
+    },
+    {
+      "new": "getCheckState",
+      "old": "Vulcan_W",
+      "return": "CheckState"
+    },
+    {
+      "new": "getPacketHandler",
+      "old": "Vulcan_O",
+      "return": "PacketHandler"
+    },
+    {
+      "new": "getRecentSamples",
+      "old": "Vulcan_R",
+      "return": "SampleDeque"
+    },
+    {
+      "new": "getOlderSamples",
+      "old": "Vulcan_g",
+      "return": "SampleDeque"
+    },
+    {
+      "new": "getLastFlagTime",
+      "old": "Vulcan_a",
+      "return": "long"
+    }
+  ],
+  "VulcanBootstrap": [
+    {
+      "new": "getLastFlagTime",
+      "old": "Vulcan_r",
+      "return": "String"
+    },
+    {
+      "new": "getBlockBreakTracker",
+      "old": "Vulcan_x",
+      "return": "Logger"
+    },
+    {
+      "new": "isCheckState",
+      "old": "Vulcan_x",
+      "return": "boolean"
+    },
+    {
+      "new": "isLastDigPacket",
+      "old": "Vulcan_U",
+      "return": "boolean"
+    },
+    {
+      "new": "isLastBlockPlacePacket",
+      "old": "Vulcan_q",
+      "return": "boolean"
+    },
+    {
+      "new": "isExemptPlayers",
+      "old": "Vulcan_P",
+      "return": "boolean"
+    },
+    {
+      "new": "isWebhookClient",
+      "old": "Vulcan_K",
+      "return": "boolean"
+    },
+    {
+      "new": "isLastFlyingPacket",
+      "old": "Vulcan_k",
+      "return": "boolean"
+    },
+    {
+      "new": "isTickTracker",
+      "old": "Vulcan_j",
+      "return": "boolean"
+    },
+    {
+      "new": "isRecentSamples",
+      "old": "Vulcan_c",
+      "return": "boolean"
+    },
+    {
+      "new": "isVersionUtil",
+      "old": "Vulcan_O",
+      "return": "boolean"
+    },
+    {
+      "new": "isMovementViolations",
+      "old": "Vulcan_n",
+      "return": "boolean"
+    },
+    {
+      "new": "getJoined",
+      "old": "Vulcan_r",
+      "return": "Map"
+    },
+    {
+      "new": "getLastVelocityTime",
+      "old": "Vulcan_N",
+      "return": "KeepAliveRunnable"
+    },
+    {
+      "new": "getLastInteractPacket",
+      "old": "Vulcan_B",
+      "return": "TickRunnable"
+    },
+    {
+      "new": "getLastHeldItemChangePacket",
+      "old": "Vulcan_Q",
+      "return": "PluginManager"
+    },
+    {
+      "new": "getReachEntityHelper",
+      "old": "Vulcan_E",
+      "return": "PunishmentManager"
+    },
+    {
+      "new": "getInventoryOpen",
+      "old": "Vulcan_F",
+      "return": "TransactionPingHandler"
+    },
+    {
+      "new": "getRecentFlags",
+      "old": "Vulcan__",
+      "return": "FloodgateHelper"
+    },
+    {
+      "new": "getPacketHandler",
+      "old": "Vulcan_r",
+      "return": "HookManager"
+    },
+    {
+      "new": "getGliding",
+      "old": "Vulcan_e",
+      "return": "AlertMessageBuilder"
+    },
+    {
+      "new": "getLastEntityActionPacket",
+      "old": "Vulcan_S",
+      "return": "AlertPlaceholders"
+    },
+    {
+      "new": "getUser",
+      "old": "Vulcan_v",
+      "return": "ExecutorService"
+    },
+    {
+      "new": "getJoinTicks",
+      "old": "Vulcan_Y",
+      "return": "ExecutorService"
+    },
+    {
+      "new": "getAutoClickerViolations",
+      "old": "Vulcan_W",
+      "return": "ExecutorService"
+    },
+    {
+      "new": "getExecutorService",
+      "old": "Vulcan__",
+      "return": "ExecutorService"
+    },
+    {
+      "new": "getPlayer",
+      "old": "Vulcan_M",
+      "return": "Map"
+    },
+    {
+      "new": "getVulcanPlugin",
+      "old": "Vulcan_j",
+      "return": "VulcanPlugin"
+    },
+    {
+      "new": "getOlderSamples",
+      "old": "Vulcan_j",
+      "return": "SchedulerAdapter"
+    },
+    {
+      "new": "getClickTracker",
+      "old": "Vulcan_o",
+      "return": "int"
+    },
+    {
+      "new": "getClientBrand",
+      "old": "Vulcan_A",
+      "return": "int"
+    },
+    {
+      "new": "getEntityId",
+      "old": "Vulcan_A",
+      "return": "int[]"
+    }
+  ]
+}
