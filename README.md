@@ -1,4 +1,4 @@
-# 🛡️ Vulcan AntiCheat 2.9.7.23 — Fully Deobfuscated & Clean Source Code
+# 🛡️ Vulcan AntiCheat - Deobfuscated & Clean Source Code
 
 [![Java](https://img.shields.io/badge/Java-8%2B-orange.svg)](https://www.oracle.com/java/)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.8--1.20.4-blue.svg)](https://spigotmc.org/)
